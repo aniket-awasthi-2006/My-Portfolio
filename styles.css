@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:#1d2628;
+    line-height: 1.6;
+}
+
+header {
+    background: #060333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+header img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border-color: rgb(0, 183, 255);
+    border-style: double;
+    border-width: 10px;
+}
+
+nav {
+    background: #507ee0;
+    padding: 10px 0;
+    text-align: center;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background-color: #1d2628;
+    
+}
+
+main section {
+    margin-bottom: 40px;
+
+}
+
+main section li{
+    color:#00e7e3;
+}
+main section p{
+    color:#00e7e3;
+}
+main section a{
+    color:#f90064;
+}
+
+h2 {
+    color: #e7fffd;
+    border-bottom: 2px solid #ff7474;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.skills-list { 
+    gap: 10px;
+    margin-right: 80%;
+   
+}
+
+.skills-list li {
+    background: #006f9a;
+    padding: 10px;
+    border-radius: 5px;
+    color: orange;
+  
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+    margin-top: px;
+}
+.contact-form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #181818;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #afdeff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #71cad2;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #fefefe;
+    background-color: #2d2c2c;
+    border-radius: 15px;
+    width: 80%;
+    
+}
+
+input:focus, textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 25px;
+    font-family: fantasy;
+    color: #fff;
+    background: #e24444;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.6s ease;
+}
+
+button:hover {
+    background: #b32100;
+}
